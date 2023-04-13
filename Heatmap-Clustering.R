@@ -1,13 +1,13 @@
 ### Reed Woyda
 # 11/17/2020
 # Script for generating metadata-labeled heatmaps with presence/absence data
+
+# Load in libraries
+# There are more than you need here but I failed to remove non-essential ones
 library(ggplot2)
-
-
 library(dplyr)
 library(viridis)
 library(ggrepel)
-
 library(gplots)
 library(pheatmap)
 library(dendextend)
